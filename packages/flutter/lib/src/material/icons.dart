@@ -20,6 +20,26 @@ import 'package:flutter/widgets.dart';
 /// flutter:
 ///   uses-material-design: true
 /// ```
+/// {@tool snippet --template=stateless_widget_scaffold}
+///
+/// This example shows how to use [Icons] to create three icons: fast rewind,
+/// play and fast forward
+///
+/// ```dart
+/// Widget build(BuildContext context) {
+///   return Center(
+///     child: Row(
+///       mainAxisAlignment: MainAxisAlignment.center,
+///       children: <Widget>[
+///         Icon(Icons.fast_rewind),
+///         Icon(Icons.play_arrow),
+///         Icon(Icons.fast_forward)
+///       ],
+///     ),
+///   );
+/// }
+/// ```
+/// {@end-tool}
 ///
 /// See also:
 ///
